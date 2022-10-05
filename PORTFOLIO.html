@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="PORTFOLIO.css" />
+    <script src="Javascript/port.js"></script>
+    <title>HUZAIR'S WEBSITE</title>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="/Javascript/typed.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">PORTFO<span>LIO</span></div>
+        <div class="men">
+          <a href="#h">Home</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#services">Services</a>
+          <a href="#Contact">Contact</a>
+          <a href="">Top 5 Programming Language</a>
+        </div>
+      </nav>
+      <div id="h" class="text">
+        <p>Hello, I am</p>
+        <h1>Huzair Ibrahim</h1>
+        <p>I Am A <span id="ani" style="color: brown"></span></p>
+        <button class="c-btn">Hire Me</button>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="sec-info">
+        <h1>About</h1>
+        <p>Who I am ?</p>
+      </div>
+      <div class="about-row">
+        <div class="about-lef-col">
+          <img src="Image/about.jpeg" alt="" />
+        </div>
+
+        <div class="about-rig-col">
+          <p id="p-t">
+            Hello, I'm Huzair & I'm a
+            <span id="ani2" style="color: brown"></span>
+          </p>
+          <p>
+            My name is Huzair Ibrahim I am a student of Btech Computer Science
+            and I am really intrested in Web Development. I want to become a
+            Full Stack Web Developer. I practiced So much HTML and CSS ,I know
+            something Of Javascript and Bootstrap I have basic Knowledge of it.
+          </p>
+          <button class="c-btn">Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="sec-info">
+        <h1 style="color: white">Skills</h1>
+        <p>My Skills</p>
+      </div>
+
+      <div class="skill-row">
+        <div class="skill-lef">
+          <p>
+            I practiced So much HTML and CSS ,I know something Of Javascript and
+            Bootstrap I have basic Knowledge of it. I really want to become a
+            full stack development. I know various websites i have very good
+            Knowledge and understanding of browsing and finding the solutions
+          </p>
+          <button class="c-btn">Read More</button>
+        </div>
+        <div class="skill-rig">
+          <div class="prog-div">
+            <p>
+              <span>HTML</span><br />
+              <progress value="90" max="100"></progress>
+              <span>90%</span>
+            </p>
+
+            <p>
+              <span>CSS</span><br />
+              <progress value="80" max="100"></progress>
+              <span>80%</span>
+            </p>
+
+            <p>
+              <span>Javascript</span><br />
+              <progress value="60" max="100"></progress>
+              <span>60%</span>
+            </p>
+
+            <p>
+              <span>Bootstrap</span><br />
+              <progress value="50" max="100"></progress>
+              <span>50%</span>
+            </p>
+
+            <p>
+              <span>Extensions</span><br />
+              <progress value="70" max="100"></progress>
+              <span>70%</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <div class="sec-info">
+        <h1>Services</h1>
+        <p>What We Provide</p>
+      </div>
+      <div class="ser-row">
+        <div class="ser-box" data-tilt>
+          <img src="Image/b2.png" alt="" />
+          <h2>Web Designing</h2>
+          <p>
+            We have very good experience in Web Desingn we completed so much
+            task.We provide excellent service in it. We have great experience of
+            Figma Adobe Softwares
+          </p>
+        </div>
+        <div class="ser-box" data-tilt>
+          <img src="Image/b2.png" alt="" />
+          <h2>Web Development</h2>
+          <p>
+            In Web Development we know there is two part do complete the target
+            Front End & Back End .In both the part there are so many
+            technologies to do work .We have great team and experience
+          </p>
+        </div>
+        <div class="ser-box" data-tilt>
+          <img src="Image/b2.png" alt="" />
+          <h2>Apps Development</h2>
+          <p>
+            We have done so many projects in android or ios development
+            specially Flutter & React js. We have great team to do work and
+            provide better services
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact">
+      <div class="sec-info" style="color: white">
+        <h1>Contact US</h1>
+        <p style="color: black">We are Available</p>
+      </div>
+
+      <div class="cont-row">
+        <div class="cont-lef">
+          <img src="Image/b3.png" alt="" />
+        </div>
+        <div class="cont-rig">
+          <form>
+            <h2>Contact Now</h2>
+            <input type="text" placeholder="Name" />
+            <input type="mail" placeholder="Email" />
+            <br />
+            <textarea cols="40" rows="10" placeholder="Message"></textarea>
+            <br />
+            <button class="c-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer id="foot">
+      <h2>
+        Developed By <br />
+        Huzair Ibrahim
+      </h2>
+      <h2>
+        <a href="First time/TRY.html">👨‍💻Top 10 Languages👨‍💻</a>
+      </h2>
+      <h2>
+        <a href="2/second.html">👨‍💻Full Stack Web Development👨‍💻</a>
+      </h2>
+      <img src="Image/icon.png" width="100px" />
+    </footer>
+    <!--  <script src="/Javascript/jquery.ripples-min.js"></script>
+    <script>
+      jQuery(document).ready(function () {
+        $('header').ripples({
+          dropRadius: 20,
+          perturbance: 0.03,
+        });
+      });
+    </script> -->
+    <script>
+      let animate = new Typed('#ani', {
+        strings: ['Front End Developer' /*  'Developer' */],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+    <script>
+      let animat = new Typed('#ani2', {
+        strings: ['Web  Developer' /*  'Developer' */],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+
+    <script src="Javascript/tilt.jquery.min.js"></script>
+  </body>
+</html>
